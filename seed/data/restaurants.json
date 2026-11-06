@@ -1,0 +1,10 @@
+[
+  {"_id": "spice_route", "name": "Spice Route", "cuisine": "North Indian", "prep_time_min": 20, "distance_km": 3.0, "is_online": true, "rating": 4.4},
+  {"_id": "biryani_junction", "name": "Biryani Junction", "cuisine": "Hyderabadi", "prep_time_min": 25, "distance_km": 4.5, "is_online": true, "rating": 4.5},
+  {"_id": "dosa_corner", "name": "Dosa Corner", "cuisine": "South Indian", "prep_time_min": 15, "distance_km": 2.0, "is_online": true, "rating": 4.3},
+  {"_id": "wok_this_way", "name": "Wok This Way", "cuisine": "Chinese", "prep_time_min": 18, "distance_km": 3.5, "is_online": true, "rating": 4.1},
+  {"_id": "pizza_piazza", "name": "Pizza Piazza", "cuisine": "Italian", "prep_time_min": 22, "distance_km": 5.0, "is_online": true, "rating": 4.2},
+  {"_id": "green_bowl", "name": "Green Bowl", "cuisine": "Healthy / salads", "prep_time_min": 12, "distance_km": 1.5, "is_online": true, "rating": 4.6},
+  {"_id": "tandoor_tales", "name": "Tandoor Tales", "cuisine": "Mughlai", "prep_time_min": 28, "distance_km": 6.0, "is_online": true, "rating": 4.5},
+  {"_id": "sweet_spot", "name": "Sweet Spot", "cuisine": "Desserts", "prep_time_min": 10, "distance_km": 2.5, "is_online": true, "rating": 4.7}
+]

@@ -1,0 +1,4 @@
+[
+  {"_id": "swiggy", "name": "Swiggy", "rider_assign_min": 4, "min_per_km": 2.2, "base_delivery_fee": 35},
+  {"_id": "zomato", "name": "Zomato", "rider_assign_min": 6, "min_per_km": 1.8, "base_delivery_fee": 25}
+]

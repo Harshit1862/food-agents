@@ -1,0 +1,57 @@
+[
+  {"_id": "spice_route_01", "restaurant_id": "spice_route", "name": "Paneer Butter Masala", "base_price": 280, "is_veg": true, "tags": ["curry", "creamy"], "available": true},
+  {"_id": "spice_route_02", "restaurant_id": "spice_route", "name": "Dal Makhani", "base_price": 220, "is_veg": true, "tags": ["curry", "creamy"], "available": true},
+  {"_id": "spice_route_03", "restaurant_id": "spice_route", "name": "Butter Chicken", "base_price": 320, "is_veg": false, "tags": ["curry", "creamy"], "available": true},
+  {"_id": "spice_route_04", "restaurant_id": "spice_route", "name": "Garlic Naan", "base_price": 60, "is_veg": true, "tags": ["bread"], "available": true},
+  {"_id": "spice_route_05", "restaurant_id": "spice_route", "name": "Jeera Rice", "base_price": 140, "is_veg": true, "tags": ["rice"], "available": true},
+  {"_id": "spice_route_06", "restaurant_id": "spice_route", "name": "Chicken Tikka Masala", "base_price": 340, "is_veg": false, "tags": ["curry", "spicy"], "available": false},
+
+  {"_id": "biryani_junction_01", "restaurant_id": "biryani_junction", "name": "Hyderabadi Chicken Biryani", "base_price": 320, "is_veg": false, "tags": ["biryani", "spicy"], "available": true},
+  {"_id": "biryani_junction_02", "restaurant_id": "biryani_junction", "name": "Mutton Biryani", "base_price": 420, "is_veg": false, "tags": ["biryani", "spicy"], "available": true},
+  {"_id": "biryani_junction_03", "restaurant_id": "biryani_junction", "name": "Veg Dum Biryani", "base_price": 240, "is_veg": true, "tags": ["biryani"], "available": true},
+  {"_id": "biryani_junction_04", "restaurant_id": "biryani_junction", "name": "Paneer Biryani", "base_price": 280, "is_veg": true, "tags": ["biryani"], "available": true},
+  {"_id": "biryani_junction_05", "restaurant_id": "biryani_junction", "name": "Mirchi Ka Salan", "base_price": 120, "is_veg": true, "tags": ["side", "spicy"], "available": true},
+  {"_id": "biryani_junction_06", "restaurant_id": "biryani_junction", "name": "Raita", "base_price": 60, "is_veg": true, "tags": ["side"], "available": true},
+
+  {"_id": "dosa_corner_01", "restaurant_id": "dosa_corner", "name": "Masala Dosa", "base_price": 120, "is_veg": true, "tags": ["dosa"], "available": true},
+  {"_id": "dosa_corner_02", "restaurant_id": "dosa_corner", "name": "Mysore Masala Dosa", "base_price": 140, "is_veg": true, "tags": ["dosa", "spicy"], "available": true},
+  {"_id": "dosa_corner_03", "restaurant_id": "dosa_corner", "name": "Idli Sambar", "base_price": 90, "is_veg": true, "tags": ["breakfast", "light"], "available": true},
+  {"_id": "dosa_corner_04", "restaurant_id": "dosa_corner", "name": "Medu Vada", "base_price": 100, "is_veg": true, "tags": ["snack"], "available": true},
+  {"_id": "dosa_corner_05", "restaurant_id": "dosa_corner", "name": "Rava Dosa", "base_price": 130, "is_veg": true, "tags": ["dosa", "crispy"], "available": true},
+  {"_id": "dosa_corner_06", "restaurant_id": "dosa_corner", "name": "Filter Coffee", "base_price": 60, "is_veg": true, "tags": ["beverage"], "available": true},
+
+  {"_id": "wok_this_way_01", "restaurant_id": "wok_this_way", "name": "Veg Hakka Noodles", "base_price": 180, "is_veg": true, "tags": ["noodles"], "available": true},
+  {"_id": "wok_this_way_02", "restaurant_id": "wok_this_way", "name": "Chicken Fried Rice", "base_price": 220, "is_veg": false, "tags": ["rice"], "available": true},
+  {"_id": "wok_this_way_03", "restaurant_id": "wok_this_way", "name": "Chilli Paneer", "base_price": 240, "is_veg": true, "tags": ["starter", "spicy"], "available": true},
+  {"_id": "wok_this_way_04", "restaurant_id": "wok_this_way", "name": "Chicken Manchurian", "base_price": 260, "is_veg": false, "tags": ["starter"], "available": true},
+  {"_id": "wok_this_way_05", "restaurant_id": "wok_this_way", "name": "Veg Manchow Soup", "base_price": 120, "is_veg": true, "tags": ["soup"], "available": true},
+  {"_id": "wok_this_way_06", "restaurant_id": "wok_this_way", "name": "Schezwan Noodles", "base_price": 200, "is_veg": true, "tags": ["noodles", "spicy"], "available": true},
+
+  {"_id": "pizza_piazza_01", "restaurant_id": "pizza_piazza", "name": "Margherita Pizza", "base_price": 299, "is_veg": true, "tags": ["pizza"], "available": true},
+  {"_id": "pizza_piazza_02", "restaurant_id": "pizza_piazza", "name": "Farmhouse Pizza", "base_price": 399, "is_veg": true, "tags": ["pizza"], "available": true},
+  {"_id": "pizza_piazza_03", "restaurant_id": "pizza_piazza", "name": "Pepperoni Pizza", "base_price": 449, "is_veg": false, "tags": ["pizza"], "available": true},
+  {"_id": "pizza_piazza_04", "restaurant_id": "pizza_piazza", "name": "Garlic Bread", "base_price": 149, "is_veg": true, "tags": ["side"], "available": true},
+  {"_id": "pizza_piazza_05", "restaurant_id": "pizza_piazza", "name": "Penne Alfredo", "base_price": 280, "is_veg": true, "tags": ["pasta", "creamy"], "available": true},
+  {"_id": "pizza_piazza_06", "restaurant_id": "pizza_piazza", "name": "Choco Lava Cake", "base_price": 119, "is_veg": true, "tags": ["dessert"], "available": true},
+
+  {"_id": "green_bowl_01", "restaurant_id": "green_bowl", "name": "Quinoa Power Bowl", "base_price": 260, "is_veg": true, "tags": ["healthy", "bowl"], "available": true},
+  {"_id": "green_bowl_02", "restaurant_id": "green_bowl", "name": "Grilled Chicken Salad", "base_price": 290, "is_veg": false, "tags": ["healthy", "high-protein"], "available": true},
+  {"_id": "green_bowl_03", "restaurant_id": "green_bowl", "name": "Greek Salad", "base_price": 220, "is_veg": true, "tags": ["healthy", "salad"], "available": true},
+  {"_id": "green_bowl_04", "restaurant_id": "green_bowl", "name": "Avocado Toast", "base_price": 240, "is_veg": true, "tags": ["healthy", "breakfast"], "available": true},
+  {"_id": "green_bowl_05", "restaurant_id": "green_bowl", "name": "Fruit Bowl", "base_price": 160, "is_veg": true, "tags": ["healthy", "light"], "available": true},
+  {"_id": "green_bowl_06", "restaurant_id": "green_bowl", "name": "Green Smoothie", "base_price": 150, "is_veg": true, "tags": ["healthy", "beverage"], "available": true},
+
+  {"_id": "tandoor_tales_01", "restaurant_id": "tandoor_tales", "name": "Seekh Kebab", "base_price": 340, "is_veg": false, "tags": ["kebab", "grilled"], "available": true},
+  {"_id": "tandoor_tales_02", "restaurant_id": "tandoor_tales", "name": "Chicken Tikka", "base_price": 320, "is_veg": false, "tags": ["grilled"], "available": true},
+  {"_id": "tandoor_tales_03", "restaurant_id": "tandoor_tales", "name": "Paneer Tikka", "base_price": 280, "is_veg": true, "tags": ["grilled"], "available": true},
+  {"_id": "tandoor_tales_04", "restaurant_id": "tandoor_tales", "name": "Mutton Rogan Josh", "base_price": 450, "is_veg": false, "tags": ["curry", "spicy"], "available": true},
+  {"_id": "tandoor_tales_05", "restaurant_id": "tandoor_tales", "name": "Butter Naan", "base_price": 70, "is_veg": true, "tags": ["bread"], "available": true},
+  {"_id": "tandoor_tales_06", "restaurant_id": "tandoor_tales", "name": "Mughlai Chicken Korma", "base_price": 380, "is_veg": false, "tags": ["curry", "creamy"], "available": true},
+
+  {"_id": "sweet_spot_01", "restaurant_id": "sweet_spot", "name": "Gulab Jamun", "base_price": 120, "is_veg": true, "tags": ["dessert", "indian"], "available": true},
+  {"_id": "sweet_spot_02", "restaurant_id": "sweet_spot", "name": "Rasmalai", "base_price": 160, "is_veg": true, "tags": ["dessert", "indian"], "available": true},
+  {"_id": "sweet_spot_03", "restaurant_id": "sweet_spot", "name": "Chocolate Brownie", "base_price": 150, "is_veg": true, "tags": ["dessert"], "available": true},
+  {"_id": "sweet_spot_04", "restaurant_id": "sweet_spot", "name": "Gajar Halwa", "base_price": 140, "is_veg": true, "tags": ["dessert", "indian"], "available": true},
+  {"_id": "sweet_spot_05", "restaurant_id": "sweet_spot", "name": "Kulfi Falooda", "base_price": 170, "is_veg": true, "tags": ["dessert", "cold"], "available": true},
+  {"_id": "sweet_spot_06", "restaurant_id": "sweet_spot", "name": "Cheesecake Slice", "base_price": 190, "is_veg": true, "tags": ["dessert"], "available": true}
+]

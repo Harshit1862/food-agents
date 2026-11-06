@@ -1,0 +1,17 @@
+[
+  {"platform_id": "swiggy", "restaurant_id": "spice_route", "price_multiplier": 1.00, "delivery_fee": 35, "discount_pct": 0},
+  {"platform_id": "swiggy", "restaurant_id": "biryani_junction", "price_multiplier": 1.05, "delivery_fee": 35, "discount_pct": 10},
+  {"platform_id": "swiggy", "restaurant_id": "dosa_corner", "price_multiplier": 1.00, "delivery_fee": 35, "discount_pct": 0},
+  {"platform_id": "swiggy", "restaurant_id": "wok_this_way", "price_multiplier": 1.08, "delivery_fee": 35, "discount_pct": 0},
+  {"platform_id": "swiggy", "restaurant_id": "pizza_piazza", "price_multiplier": 1.10, "delivery_fee": 35, "discount_pct": 15},
+  {"platform_id": "swiggy", "restaurant_id": "green_bowl", "price_multiplier": 1.00, "delivery_fee": 35, "discount_pct": 0},
+  {"platform_id": "swiggy", "restaurant_id": "tandoor_tales", "price_multiplier": 1.05, "delivery_fee": 40, "discount_pct": 10},
+
+  {"platform_id": "zomato", "restaurant_id": "spice_route", "price_multiplier": 1.06, "delivery_fee": 25, "discount_pct": 10},
+  {"platform_id": "zomato", "restaurant_id": "biryani_junction", "price_multiplier": 1.00, "delivery_fee": 25, "discount_pct": 0},
+  {"platform_id": "zomato", "restaurant_id": "dosa_corner", "price_multiplier": 1.04, "delivery_fee": 25, "discount_pct": 5},
+  {"platform_id": "zomato", "restaurant_id": "wok_this_way", "price_multiplier": 1.00, "delivery_fee": 25, "discount_pct": 0},
+  {"platform_id": "zomato", "restaurant_id": "pizza_piazza", "price_multiplier": 1.00, "delivery_fee": 30, "discount_pct": 0},
+  {"platform_id": "zomato", "restaurant_id": "green_bowl", "price_multiplier": 1.05, "delivery_fee": 25, "discount_pct": 10},
+  {"platform_id": "zomato", "restaurant_id": "sweet_spot", "price_multiplier": 1.00, "delivery_fee": 25, "discount_pct": 0}
+]
