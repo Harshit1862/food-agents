@@ -1,0 +1,31 @@
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+stages:
+  - lint
+  - test
+
+include:
+  - template: Jobs/SAST.gitlab-ci.yml
+  - template: Jobs/Secret-Detection.gitlab-ci.yml
+
+lint:
+  stage: lint
+  image: python:3.12-slim
+  script:
+    - pip install ruff
+    - ruff check .
+  allow_failure: true
+
+unit-tests:
+  stage: test
+  image: python:3.12-slim
+  script:
+    - if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - pip install pytest
+    - pytest || [ $? -eq 5 ]   # exit 5 = no tests found, don't fail for that
+  allow_failure: true
